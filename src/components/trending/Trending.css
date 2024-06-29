@@ -1,0 +1,71 @@
+.cards {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 30px;
+}
+.left {
+    margin: 30px 0 0 40px;
+    text-align: left;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: -0.003em;
+}
+.card {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.card img {
+    width: 100%;
+}
+.card-body {
+    width: 100%;
+    text-align: start;
+    padding: 10px;
+}
+.card-body h4 {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 26px;
+}
+.users {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.user-info {
+    max-width: 150px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 0;
+}
+.user-info img {
+    width: 50px;
+}
+.user-info span {
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 23px;
+}
+.nft p {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    color: #6B6B6B;
+}
+.nft span {
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 23px;
+}
